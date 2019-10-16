@@ -18,7 +18,7 @@ def loadLibrary(fp:String):CiteLibrary = {
 	library
 }
 
-def loadFile(fp:String):Vector[String] = {
+def loadFile( fp: String ): Vector[String] = {
 	Source.fromFile(fp).getLines.toVector
 }
 
