@@ -5,6 +5,7 @@ import scala.io.Source
 /* Load the file */
 
 val myLines: Vector[String] = loadFile("text/Aristotle_Politics.txt")
+//val myLines: Vector[String] = loadFile("text/char_test.txt")
 
 /* Generate a Character Histogram */
 
@@ -32,33 +33,7 @@ println(tableHead)
 
 for ( c <- sortedChars ) {
   val hex: String = c.toHexString
-  println(s"| '${c}'  | '${hex}'        |")
+  println(s"| ` ${c}`  | `${hex}`        |")
 }
 
 
-/* More Infomative Histogram */
-
-/*
-val strVec: Vector[String] = myLines.map( ln => {
-  ln.toVector.map( _.toString )
-}).flatten
-
-val strHisto: Vector[(String, Int)] = {
-  val grouped: Vector[ ( String, Vector[String] ) ] = strVec.groupBy( c => c ).toVector
-  grouped.map( g => {
-    ( g._1, g._2.size )
-  }).sortBy(_._2).reverse
-}
-
-val moreInformative: Vector[ (String, Int) ] = {
-	strHisto.map( sh => {
-		sh._1 match {
-			case " " => ( "space", sh._2)
-			case "\t" => ( "tab", sh._2)
-			case _ => sh
-		}
-	})
-}
-
-for ( c <- moreInformative ) println(s"'${c._1}'\t${c._2}")
-*/
