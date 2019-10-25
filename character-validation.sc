@@ -4,8 +4,8 @@ import scala.io.Source
 
 /* Load the file */
 
-val myLines: Vector[String] = loadFile("text/Aristotle_Politics.txt")
-//val myLines: Vector[String] = loadFile("text/char_test.txt")
+//val myLines: Vector[String] = loadFile("text/Aristotle_Politics.txt")
+val myLines: Vector[String] = loadFile("text/char_test.txt")
 
 /* Generate a Character Histogram */
 
