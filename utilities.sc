@@ -7,6 +7,11 @@ import scala.annotation.tailrec
 
 def showMe(v:Any):Unit = {
   v match {
+  	case _:Corpus => {
+  		for ( n <- v.asInstanceOf[Corpus].nodes) {
+  			println(s"${n.urn}\t\t${n.text}")
+  		}	
+  	}
     case _:Vector[Any] => println(s"""\n----\n${v.asInstanceOf[Vector[Any]].mkString("\n")}\n----\n""")
     case _:Iterable[Any] => println(s"""\n----\n${v.asInstanceOf[Iterable[Any]].mkString("\n")}\n----\n""")
     case _ => println(s"\n-----\n${v}\n----\n")
