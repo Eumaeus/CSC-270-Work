@@ -47,7 +47,7 @@ def splitWithSplitter(text: String, puncs: String =  """[()\[\]·⸁.,; "?·!–
 	text.split(regexWithSplitter).toVector.filter(_.size > 0)
 }
 
-val punctuation: String = """[“”()\[\]·…⸁.,:; "?·!⸂⸃–—-]"""
+val punctuation: String = """[“”“‘()‘’'\[\]·…⸁.,:; "?·!⸂⸃–—-]"""
 val alphabet: String = """[A-Za-z]"""
 
 

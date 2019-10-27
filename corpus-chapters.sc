@@ -22,7 +22,7 @@ val corp: Corpus = tr.corpus
 
 // Way 1, mostly pure Scala
 val timeStart1 = Calendar.getInstance().getTimeInMillis()
-val chapterCorpora1: Vector[Corpus] = {
+val chapterCorporaOne: Vector[Corpus] = {
 	val chapterUrns: Vector[CtsUrn] = {
 		corp.urns.map( _.collapsePassageTo(1) ).distinct
 	}
@@ -31,17 +31,17 @@ val chapterCorpora1: Vector[Corpus] = {
 	})
 }
 val timeEnd1 = Calendar.getInstance().getTimeInMillis()
-println( s"chapterCorpora1 in ${timeEnd1 - timeStart1} milliseconds." )
+println( s"chapterCorporaOne in ${timeEnd1 - timeStart1} milliseconds." )
 
 // Way 2, using stuff from the OHCO2 library
 val timeStart2 = Calendar.getInstance().getTimeInMillis()
-val chapterCorpora2: Vector[Corpus] = {
+val chapterCorporaTwo: Vector[Corpus] = {
 	corp.chunkByCitation(1)
 }
 val timeEnd2 = Calendar.getInstance().getTimeInMillis()
-println( s"chapterCorpora2 in ${timeEnd2 - timeStart2} milliseconds." )
+println( s"chapterCorporaTwo in ${timeEnd2 - timeStart2} milliseconds." )
 
 println( s"( chapterCorpora1 == chapterCorpora2 ) = ${chapterCorpora1 == chapterCorpora2}.")
 
-// type, e.g. 'showMe(chapterCorpora1(0))' to list results
+// type, e.g. 'showMe(chapterCorporaTwo(0))' to list results
 

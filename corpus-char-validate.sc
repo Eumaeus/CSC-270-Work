@@ -112,7 +112,7 @@ val charHisto: Vector[(Char, Int)] = {
 /* Character validation */
 
 // Make a vector of legit characters. Make it the easy way!
-val goodChars: Vector[Char] = """ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890—abcdefghijklmnopqurstuv wxyz.,:;-?!“‘_’”()[]ëç&êÊôàïÏîÎôÔéèÉÈâ""".toVector
+val goodChars: Vector[Char] = """ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890—abcdefghijklmnopqurstuv wxyz.,:;-?!“‘_’”()[]ëç&êÊôàïÏíÍîÎôÔéèÉÈâ""".toVector
 
 /* 
 		We can make one Corpus out of another!
