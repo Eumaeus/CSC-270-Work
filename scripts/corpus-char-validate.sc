@@ -24,32 +24,54 @@ val corp: Corpus = tr.corpus
 */
 
 val charHisto: Vector[(Char, Int)] = {
+
 	// For each node in the Corpus, keep only the text-part (toss the URN)
 	val justText: Vector[String] = corp.nodes.map( _.text )
+
 	// Map each element of that Vector to a Vector[Char]
+	//      (Remember that a String is, really, just a Vector[Char] anyway!)
 	val makeChars: Vector[ Vector[Char] ] = justText.map( _.toVector )
+
 	// Nested Vectors are confusing… let's flatten it
 	val flatCharVec: Vector[ Char ] = makeChars.flatten
+
 	// You've done this before
 	val grouped: Vector[ ( Char, Vector[Char] ) ] = flatCharVec.groupBy( c => c ).toVector
+
 	// return the result of the following as the value for charHisto
+	//		We re-map the 'grouped' so instead of _._2 being a Vector, we just get the
+	//		_size_ of the vector.
+	//		Then we sorty by that number, and reverse it to get the big numbers at the top.
 	grouped.map( g => {
 		( g._1, g._2.size )
 	}).sortBy( _._2 ).reverse
+
 }
 
 // Type 'showMe(charHisto)' to see the result
 // Some other things you can play with:
-val charList: Vector[Char] = charHisto.map( _._1 ).sortBy( c => c )
-val charListString: String = charList.map( c => s"'${c}'").mkString(" ")
+val charList: Vector[Char] = charHisto.map( _._1 ).sortBy( c => c ) // just a list of chars
+val charListString: String = charList.map( c => s"'${c}'").mkString(" ") // the above turned into a String
 
+/* ---------------------------------------- */
 /* Character validation */
 
 // Make a vector of legit characters. Make it the easy way!
 val goodChars: Vector[Char] = """ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890—abcdefghijklmnopqurstuv wxyz.,:;_…-?!(){}&"'[]""".toVector
 
+
+// Find the bad characters by doing .diff on two Vectors
+//		Think of it as subtraction:
+//		charList - goodChars = [only bad chars]
+val badCharsInText: Vector[Char] = charList.diff(goodChars)
+// if badCharsInText is an empty Vector, you have validated your text's character-set!
+
+
+
+
 /* 
-		We can make one Corpus out of another!
+		We can make one Corpus out of another… we could make a Corpus of only the
+		invalid characters…
 */
 val badCharCorpus: Corpus = {
 	// Filter the contents of 'corp' by omitting any nodes that have _no_ bad chars
@@ -72,9 +94,10 @@ val badCharCorpus: Corpus = {
 
 /* 
 
-		- Type 'showMe(badCharCorpus)' to see the result.
+		- Type 'badCharsInText' or 'showMe(badCharCorpus)' to see the result.
 		- Look at what is getting flagged as a "bad" character.
 		- If you see something wrongly flagged, add it to `goodChars` above.
+		- If something needs changing, think about it and consider editing the .cex file.
 		- Re-run until you are seeing only legitimately bad characters.
 		- Add to this script a function or two to generate a Markdown table of the official
 		  good characters, with their Unicode codepoints…
