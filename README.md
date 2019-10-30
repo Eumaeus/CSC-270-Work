@@ -12,7 +12,7 @@ Text: `urn:cts:greekLit:tlg0086.tlg035.ellis:`
 
 Plain-text, citable edition following the protocols of the [CITE Architecture](http://cite-architecture.org).
 
-Edited, 10/16/2019
+Edited, 10/21/2019
 
 
 ## Character Validation
@@ -40,4 +40,4 @@ The text has been machine validated as to character-set. The following is a comp
 
 ## Spelling Validation
 
-This English translation of Aristotle's *Politics* has been spell-checked against two files. One is a standard English word-list generated from the [SCOWL](http://wordlist.aspell.net) online tool. The file is <text/SCOWL-wl/words.txt>. The second is a user-dictionary: <text/userDictionary.txt>.
+This English translation of Aristotle's *Politics* has been spell-checked against two files. One is [a standard English word-list](https://github.com/Eumaeus/CSC-270-Work/tree/master/text/SCOWL-wl) generated from the [SCOWL](http://wordlist.aspell.net) online tool. The second is [a user-dictionary](https://github.com/Eumaeus/CSC-270-Work/blob/master/text/userDictionary.txt).
