@@ -14,10 +14,26 @@ Plain-text, citable edition following the protocols of the [CITE Architecture](h
 
 Edited, 10/21/2019
 
+## Running Scripts for Validation, Publication, and Analysis
+
+This repository is an SBT project for running Scala code. Everything should be reproducible.
+
+### Requirements
+
+- A Java JDK 1.8 or higher.
+- SBT Installed and on the PATH.
+
+### Running
+
+- Clone this repository.
+- Navigate to this repository's root level.
+- `$ sbt console`
+- `scala> :load scripts/corpus-char-validation.sc`
+- etc.
 
 ## Character Validation
 
-The text has been machine validated as to character-set. The following is a complete inventory of the characters present in this text:
+The text has been machine validated as to character-set using [a Scala script](https://github.com/Eumaeus/CSC-270-Work/blob/master/scripts/corpus-char-validate.sc). The following is a complete inventory of the characters present in this text:
 
 | Character | Character | Character | Character | Character |
 |-----------|-----------|-----------|-----------|-----------|
