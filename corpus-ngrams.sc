@@ -8,7 +8,7 @@ import java.util.Calendar
 
 :load utilities.sc
 
-val lib: CiteLibrary = loadLibrary("text/myText.cex")
+val lib: CiteLibrary = loadLibrary("text/arist_politics.cex")
 
 val tr: TextRepository = lib.textRepository.get
 
@@ -113,4 +113,21 @@ def urnsForNGram( s:String, ngt: Vector[ (CtsUrn, String)] ): Set[CtsUrn] = {
 val ngt = makeNGramTuples(3, noPuncCorpus)
 val ngh = makeNGramHisto(ngt)
 
-
+/* Given a histogram, return the elements whose frequency sums to a given
+   percentage of the whole.
+*/
+def takePercent( histo: Vector[(String, Int)], targetPercent: Int): Vector[(String, Int)] = {
+	@tailrec def sumTakePercent(totalInstances: BigInt, h: Vector[(String, Int)], justNumbers: Vector[Int]): Vector[(String, Int)] = {
+		val sum: BigInt = justNumbers.sum
+		val currentPercent: Double = (sum.toDouble / totalInstances.toDouble) * 100
+		if ( currentPercent <= targetPercent ) {
+			h.sortBy(_._2).reverse
+		} else {
+			sumTakePercent( totalInstances, h.tail, justNumbers.tail )
+		}
+	}
+	val t: BigInt = histo.map(_._2).sum
+	val h: Vector[(String, Int)] = histo.sortBy(_._2) // we want _ascending_ order!
+	val n: Vector[Int] = h.map(_._2) // we don't want to re-map the whole histo each time!
+	sumTakePercent( t, h, n) 
+}

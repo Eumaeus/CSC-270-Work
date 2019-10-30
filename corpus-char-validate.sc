@@ -7,7 +7,8 @@ import scala.annotation.tailrec
 
 :load utilities.sc
 
-val lib: CiteLibrary = loadLibrary("text/myText.cex")
+// Edit the following to load *your* text!
+val lib: CiteLibrary = loadLibrary("text/arist_politics.cex")
 
 val tr: TextRepository = lib.textRepository.get
 
@@ -15,82 +16,12 @@ val cat: Catalog = tr.catalog
 
 val corp: Corpus = tr.corpus
 
-/* CATALOG GAMES */
 
-println(s"\nThings you can do with a catalog.\n")
+/* Make a Character-Histogram
 
-
-println(s"Find out what texts are in the library…")
-cat.texts
-
-println()
-
-println(s"Find out what specific versions are in the library…")
-cat.versions
-
-println()
-
-println(s"Find out what specific *exemplars* are in the library…")
-cat.exemplars
-
-println()
-
-println(s"Find out what notional works are in the library…")
-cat.works
-
-println()
-
-// The catalog can give you info about a text, if you know its URN
-
-val versionUrn: CtsUrn = cat.versions.head // get the first version in the Set of versions
-
-
-println(s"Group name…")
-cat.groupName(versionUrn)
-
-println(s"Work title…")
-cat.workTitle(versionUrn)
-
-
-println(s"Version label…")
-cat.versionLabel(versionUrn)
-
-// Or, you can query each CatalogEntry specifically…
-
-println(s"What a CatalogEntry looks like…")
-val catEntry: CatalogEntry = cat.texts.head
-catEntry
-
-// get a description of the citation scheme for this text…
-
-println(s"What is the citation scheme for a text?")
-catEntry.citationScheme
-
-/* CORPUS GAMES */
-
-corp
-
-corp.size
-
-corp.nodes(0)
-
-corp.nodes(1)
-
-corp.nodes(10)
-
-corp.nodes.last.text
-
-// Just the URN
-corp.nodes(10).urn
-// Just the Text
-corp.nodes(10).text
-
-// List of all URNs
-var urnList: Vector[CtsUrn] = corp.nodes.map( _.urn )
-// type 'showMe(urnList)' to see the list, after you run this script
-
-
-// Char histo?
+	 For this (but not for the next part) we don't need a Corpus…
+	 …just a big Vector of Characters.
+*/
 
 val charHisto: Vector[(Char, Int)] = {
 	// For each node in the Corpus, keep only the text-part (toss the URN)
@@ -108,20 +39,23 @@ val charHisto: Vector[(Char, Int)] = {
 }
 
 // Type 'showMe(charHisto)' to see the result
+// Some other things you can play with:
+val charList: Vector[Char] = charHisto.map( _._1 ).sortBy( c => c )
+val charListString: String = charList.map( c => s"'${c}'").mkString(" ")
 
 /* Character validation */
 
 // Make a vector of legit characters. Make it the easy way!
-val goodChars: Vector[Char] = """ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890—abcdefghijklmnopqurstuv wxyz.,:;-?!“‘_’”()[]ëç&êÊôàïÏíÍîÎôÔéèÉÈâ""".toVector
+val goodChars: Vector[Char] = """ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890—abcdefghijklmnopqurstuv wxyz.,:;_…-?!(){}&"'[]""".toVector
 
 /* 
 		We can make one Corpus out of another!
 */
 val badCharCorpus: Corpus = {
-	// Filter the contents of 'corp' by omitting any nodes that has _no_ bad chars
+	// Filter the contents of 'corp' by omitting any nodes that have _no_ bad chars
 	val badNodes: Vector[CitableNode] = corp.nodes.filter( n => {
 		val chars: Vector[Char] = n.text.toVector.distinct
-		// return the following as the value of badNodes
+		// vectorA.diff(vectorB) is something you can play with in the console…
 		chars.diff(goodChars).size > 0
 	})
 	// For each of the offending nodes, make a new version that has only the bad chars
@@ -136,5 +70,40 @@ val badCharCorpus: Corpus = {
 	Corpus(boiledDown)
 }
 
-// Type 'showMe(badCharCorpus)' to see the result
+/* 
 
+		- Type 'showMe(badCharCorpus)' to see the result.
+		- Look at what is getting flagged as a "bad" character.
+		- If you see something wrongly flagged, add it to `goodChars` above.
+		- Re-run until you are seeing only legitimately bad characters.
+		- Add to this script a function or two to generate a Markdown table of the official
+		  good characters, with their Unicode codepoints…
+
+*/
+
+def reportChar( c: Char ): String = {
+	c match {
+		case ' ' => s"`space` (${c.toHexString})" 
+		case '\r' => s"`return` (${c.toHexString})" 
+		case '\t' => s"`tab` (${c.toHexString})" 
+		case _ => s"`${c}` (${c.toHexString})"
+	}
+}
+
+def charTable( s:String, width: Int = 5 ): String = {
+		val headerString: String = {
+			 val lineOne: String = ( 1 to width ).toVector.map( i => { s"| Character "}).mkString
+			 val lineTwo: String = (1 to width).toVector.map( i => {    "|-----------" }).mkString
+			 s"${lineOne}|\n${lineTwo}|\n"
+		}
+		val cVec: Vector[Vector[Char]] = s.toVector.sortBy( c => c).sliding( width, width).toVector
+		val tableString: String = cVec.map( v => {
+			v.map( c => {
+				val s: String = reportChar(c)
+				s"| ${s} "
+			}).mkString + "|"
+		}).mkString("\n")
+		headerString + tableString
+}
+
+saveString( charTable(charList.mkString), "", "charTable.md")

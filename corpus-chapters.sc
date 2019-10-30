@@ -41,7 +41,7 @@ val chapterCorporaTwo: Vector[Corpus] = {
 val timeEnd2 = Calendar.getInstance().getTimeInMillis()
 println( s"chapterCorporaTwo in ${timeEnd2 - timeStart2} milliseconds." )
 
-println( s"( chapterCorpora1 == chapterCorpora2 ) = ${chapterCorpora1 == chapterCorpora2}.")
+println( s"( chapterCorporaOne == chapterCorporaTwo ) = ${chapterCorporaOne == chapterCorporaTwo}.")
 
 // type, e.g. 'showMe(chapterCorporaTwo(0))' to list results
 

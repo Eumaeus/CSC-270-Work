@@ -13,6 +13,9 @@ resolvers += Resolver.bintrayRepo("neelsmith","maven")
 resolvers += Resolver.bintrayRepo("eumaeus", "maven")
 resolvers += sbt.Resolver.bintrayRepo("denigma", "denigma-releases")
 
+Compile / run / fork := true
+
+
 connectInput in run := true
 
 javaOptions in run ++= Seq(
