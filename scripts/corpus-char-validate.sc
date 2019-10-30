@@ -57,7 +57,7 @@ val charListString: String = charList.map( c => s"'${c}'").mkString(" ") // the 
 /* Character validation */
 
 // Make a vector of legit characters. Make it the easy way!
-val goodChars: Vector[Char] = """ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890—abcdefghijklmnopqurstuv wxyz.,:;_…-?!(){}&"'[]""".toVector
+val goodChars: Vector[Char] = """ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890—abcdefghijklmnopqurstuvwxyz.,:;_…-?!(){}&"'[]""".toVector
 
 
 // Find the bad characters by doing .diff on two Vectors

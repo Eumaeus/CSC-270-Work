@@ -40,4 +40,4 @@ The text has been machine validated as to character-set. The following is a comp
 
 ## Spelling Validation
 
-This English translation of Aristotle's *Politics* has been spell-checked against two files. One is [a standard English word-list](https://github.com/Eumaeus/CSC-270-Work/tree/master/text/SCOWL-wl) generated from the [SCOWL](http://wordlist.aspell.net) online tool. The second is [a user-dictionary](https://github.com/Eumaeus/CSC-270-Work/blob/master/text/userDictionary.txt).
+This English translation of Aristotle's *Politics* has been spell-checked against two files. One is [a standard English word-list](https://github.com/Eumaeus/CSC-270-Work/tree/master/validation-data/SCOWL-wl) generated from the [SCOWL](http://wordlist.aspell.net) online tool. The second is [a user-dictionary](https://github.com/Eumaeus/CSC-270-Work/blob/master/validation-data/userDictionary.txt).
