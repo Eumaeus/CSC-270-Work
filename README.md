@@ -21,7 +21,7 @@ This repository is an SBT project for running Scala code. Everything should be r
 ### Requirements
 
 - A Java JDK 1.8 or higher.
-- SBT Installed and on the PATH.
+- [SBT](https://www.scala-sbt.org) Installed and on the PATH.
 
 ### Running
 
