@@ -41,7 +41,7 @@ val charHisto: Vector[(Char, Int)] = {
 	// return the result of the following as the value for charHisto
 	//		We re-map the 'grouped' so instead of _._2 being a Vector, we just get the
 	//		_size_ of the vector.
-	//		Then we sorty by that number, and reverse it to get the big numbers at the top.
+	//		Then we sort by that number, and reverse it to get the big numbers at the top.
 	grouped.map( g => {
 		( g._1, g._2.size )
 	}).sortBy( _._2 ).reverse
@@ -57,7 +57,8 @@ val charListString: String = charList.map( c => s"'${c}'").mkString(" ") // the 
 /* Character validation */
 
 // Make a vector of legit characters. Make it the easy way!
-val goodChars: Vector[Char] = """ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890—abcdefghijklmnopqurstuvwxyz.,:;_…-?!(){}&"'[]""".toVector
+//val goodChars: Vector[Char] = """ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890—abcdefghijklmnopqurstuvwxyz.,:;_…-?!(){}&"'[]""".toVector
+val goodChars: Vector[Char] = """ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890—abcdefghijklmnopqurstuvwxyz".,?""".toVector
 
 
 // Find the bad characters by doing .diff on two Vectors
