@@ -6,11 +6,8 @@ import java.io._
 import scala.annotation.tailrec
 import java.util.Calendar
 
-:load utilities.sc
+:load tokenize2.sc
 
-// We're keeping the ' char and the hyphen!
-//    (That's why this is different from the 'punctution' value in utilities.sc)
-val removePunctuation: String = """[“”“‘()‘’\[\]_·…⸁.,:; "?·!⸂⸃–—-]"""
 
 val spellCheckSplitters: String =  """[()\[\]·⸁.,; "?·!–—⸂⸃-]"""
 
@@ -28,50 +25,25 @@ val corp: Corpus = tr.corpus
 
 /* Let's make a *tokenized exemplar*! */
 
-val exemplarLabel: String = "spellcheck"
+def processForSpelling( c: Corpus ) = {
+	// We're keeping the ' char and the hyphen!
+	//    (That's why this is different from the 'punctution' value in utilities.sc)
+	val removePunctuation: String = """[“”“‘()‘’\[\]_·…⸁.,:; "?·!⸂⸃–—-]"""
 
-/* We do this by mapping the .nodes of a Corpus
-		1. For each .node in the Corpus…
-		2. Split the .text into tokens
-		3. Attach an index-number to each token
-		4. For each token, make a new URN that adds the index number
-		5. With a URN and a Text (the token) you can make a CitableNode
-		6. Return that Citable Node
-		(We will drop any tokens that consist only of punctuation, and remove punctuation from the others.)
-*/
-val tokenizedVector: Vector[CitableNode] = corp.nodes.map( n => {
-	// Grab the original URN
-	val urnBase: CtsUrn = n.urn
-	// Get its citation-component
-	val citationBase: String = urnBase.passageComponent
-	// Split up the text into tokens
-	val tokenizedText: Vector[String] = splitWithSplitter(n.text, spellCheckSplitters).filter( _ != " ")
-	// Map these tokens into Citable Nodes
-	val tokens: Vector[CitableNode] = tokenizedText.zipWithIndex.map( z => {
-		// By adding to the citation-component
-		val citation: String = s"${citationBase}.${z._2 + 1}"
-		// And creating a new URN
-		val urn: CtsUrn = urnBase.addExemplar(exemplarLabel).addPassage(citation)
-		// And getting the text of the new token-citable-node
-		val passage: String = z._1
-		// And making a CitableNode out of URN + Text
-		CitableNode(urn, passage)
+	val filterNodes: Vector[CitableNode] = c.nodes.filter( n => {
+			removePunctuation.contains(n.text) == false
 	})
-	tokens
-}).flatten.filter( n => {
-	((n.text.size > 0) && (n.text.replaceAll(punctuation,"").size > 0))
-}).map( n => {
-	val nt: String = n.text.replaceAll("’","'").replaceAll(removePunctuation,"")
-	CitableNode( n.urn, nt)
-})
 
-/* We mapped a Vector[CitableNode] and each node became a Vector[CitableNode].
-   So we have a Vector[Vector[CitableNode]], which we need to "flatten" into
-   a Vector[CitableNode]. 
-*/
+	val mappedNodes: Vector[CitableNode] = c.nodes.map( n => {
+		CitableNode( n.urn, n.text.replaceAll(removePunctuation,""))
+	})
 
-// We make a Corpus out of our new Vector[CitableNode]
-val tokenCorp: Corpus = Corpus(tokenizedVector)
+	Corpus(mappedNodes)
+
+}
+
+val spellCheckCorpus: Corpus = tokenizeCorpus( corp, "spellTokens", processForSpelling )
+
 
 /* We don't want to spell-check the same word again and again.
 	 But we _do_ want to know the citations for each instance of a word.
