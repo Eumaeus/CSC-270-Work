@@ -1,6 +1,6 @@
 # Aristotle, *Politics*
 
-A citable digital edition. 
+A citable digital edition.
 
 **Status**: <span style="color: red;">In progress</span>.
 
