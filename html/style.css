@@ -1,0 +1,87 @@
+html {
+	margin: 3em;
+	background-color: #ddd;
+	font-family: Helvetica, Ariel, sans;
+	line-height: 1.5em;
+	color: green;
+}
+
+
+/* Links are `a` elements in HTML */
+a {
+	text-decoration: none;
+	margin: 0 0.5em 0 0;
+	padding: 3px;
+}
+
+/* :hover	 is what it will look like when you hover the mouse over an element */
+a:hover {
+	background-color: yellow;
+	border: 2px solid red ;
+}
+
+/* You can define any color with a 3-digit "hex-code" */
+/* The three values are from 0-F, and represent Red, Green, Blue */
+header {
+	color: #666;
+	font-size: 150%;
+}
+
+article {
+	border: 1px solid silver;
+	padding: 2em;
+}
+
+/* Styles attached to element-names apply to _every_ element
+	 with that name */
+div {
+	border: 2px solid #3af;
+	padding: 5px;
+}
+
+/* To specify style for only _some_ elements
+	 you can identify them by classes (the classes have to be
+	 in the HTML)
+*/
+div.cts_corpus {
+	border: 4px dashed #00f;
+}
+
+
+/* You can specify just a class name… */
+.cts_workTitle {
+	font-style: italic;
+}
+
+/* Fonts are tricky… read about them online! */
+.cts_citationScheme {
+	color: navy;
+	font-family: DejaVu-Sans-Mono, monospace;
+}
+
+.cts_corpusTitle {
+	color: blue ;
+	border: 1px dashed red;
+}
+
+/* You can add space on any side of something with:
+		- margin-right
+		- margin-left
+		- margin-top
+		- margin-bottom
+
+*/
+.cts_ref {
+	margin-right: 2em;
+	opacity: 0.5;
+}
+
+.cts_node {
+	margin-top: 1em;
+	max-width: 40em;
+}
+
+progress.cts_progress {
+	width: 100%;
+}
+
