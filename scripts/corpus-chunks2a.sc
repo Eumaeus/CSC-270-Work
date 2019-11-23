@@ -8,7 +8,7 @@ import java.util.Calendar
 
 :load utilities.sc
 
-val lib: CiteLibrary = loadLibrary("text/myText.cex")
+val lib: CiteLibrary = loadLibrary("text/arist_politics.cex")
 
 val tr: TextRepository = lib.textRepository.get
 
@@ -20,28 +20,62 @@ val corp: Corpus = tr.corpus
 
 // There are a couple of ways of doing this; which is faster?
 
-// Way 1, mostly pure Scala
-val timeStart1 = Calendar.getInstance().getTimeInMillis()
+
+
+
+
+
+
+
+// Way 1: Using the OHCO2 Library naively…
 val chapterCorporaOne: Vector[Corpus] = {
+	// Get a Vector of chapter-level URNs…
 	val chapterUrns: Vector[CtsUrn] = {
 		corp.urns.map( _.collapsePassageTo(1) ).distinct
 	}
+	// "twiddle" the big corpus into little corpora…
+	chapterUrns.map( cu => {
+	 		corp ~~ cu
+	})
+}
+
+
+
+
+
+
+
+
+
+
+// Way 2, being more thoughtful about Corpus-Algebra
+val chapterCorporaTwo: Vector[Corpus] = {
+	// Get a Vector of chapter-level URNs…
+	val chapterUrns: Vector[CtsUrn] = {
+		corp.urns.map( _.collapsePassageTo(1) ).distinct
+	}
+	// Be more specific than a generic "twiddle"
 	chapterUrns.map( cu => {
 	 		Corpus( corp.nodes.filter( _.urn.collapsePassageTo(1) == cu ))	
 	})
 }
-val timeEnd1 = Calendar.getInstance().getTimeInMillis()
-println( s"chapterCorporaOne in ${timeEnd1 - timeStart1} milliseconds." )
 
-// Way 2, using stuff from the OHCO2 library
-val timeStart2 = Calendar.getInstance().getTimeInMillis()
-val chapterCorporaTwo: Vector[Corpus] = {
+
+
+
+
+
+
+
+/* 
+			Way 3, using a function from the OHCO2 library…
+			… that consists of 52 lines of code (complex, had to be
+			tested and de-bugged), but which takes advantage of Scala's
+			list-processing efficiency to do the job we need doing.
+*/
+
+val chapterCorporaThree: Vector[Corpus] = {
 	corp.chunkByCitation(1)
 }
-val timeEnd2 = Calendar.getInstance().getTimeInMillis()
-println( s"chapterCorporaTwo in ${timeEnd2 - timeStart2} milliseconds." )
 
-println( s"( chapterCorporaOne == chapterCorporaTwo ) = ${chapterCorporaOne == chapterCorporaTwo}.")
-
-// type, e.g. 'showMe(chapterCorporaTwo(0))' to list results
 

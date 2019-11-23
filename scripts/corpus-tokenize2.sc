@@ -102,7 +102,7 @@ def removeStopWords( c: Corpus ): Corpus = {
 }
 
 // Let's make some tokenized corpora!
-val tokenCorpus: Corpus = tokenizeCorpus( corp, "tokens" )
-val lcTokenCorpus: Corpus = tokenizeCorpus( corp, "lcTokens", lowerCaseNodes )
-val noStopWordsCorpus: Corpus = tokenizeCorpus( corp, "sigTokens", removeStopWords y
+//val tokenCorpus: Corpus = tokenizeCorpus( corp, "tokens" )
+//val lcTokenCorpus: Corpus = tokenizeCorpus( corp, "lcTokens", lowerCaseNodes )
+//val noStopWordsCorpus: Corpus = tokenizeCorpus( corp, "sigTokens", removeStopWords )
 

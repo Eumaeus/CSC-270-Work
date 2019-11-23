@@ -8,7 +8,7 @@ import java.util.Calendar
 
 :load utilities.sc
 
-val lib: CiteLibrary = loadLibrary("text/myText.cex")
+val lib: CiteLibrary = loadLibrary("text/arist_politics.cex")
 
 val tr: TextRepository = lib.textRepository.get
 

@@ -21,7 +21,7 @@ object webWriter {
   		val libraryPath: Option[String] = {
   			if ( params.size > 0 ) Some(params.head)
   			else {
-  				println(s"""\n------\nRun by entering the following into SBT Console: `run path/to/lib.cex`.\n------\n""")
+  				println(s"""\n------\nRun by entering the following into SBT: `run path/to/lib.cex`.\n------\n""")
   				None
   			}
   		}
@@ -61,8 +61,8 @@ object webWriter {
 				// 2. Split it into manageable chunks. THERE ARE SEVERAL WAYS TO DO THIS!
 
 				//val corpVec: Vector[Corpus] = hocuspocus.corpusToChapters( corp, drop = 1 )
-				val corpVec: Vector[Corpus] = hocuspocus.equalDivs( corp, n = 10 )
-				//val corpVec: Vector[Corpus] = hocuspocus.equalSize( corp, target = 5000 )
+				//val corpVec: Vector[Corpus] = hocuspocus.equalDivs( corp, n = 10 )
+				val corpVec: Vector[Corpus] = hocuspocus.equalSize( corp, target = 5000 )
 				/* -------------------------------------- */
 
 				// A little reporting… 	
