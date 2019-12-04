@@ -1,0 +1,147 @@
+
+		<div class="ohco2_commentedPassage">
+		<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.1" data-urnPassage="1.1" data-urnPassageLeaf="1"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.1">Μῆνιν ἄειδε θεὰ Πηληϊάδεω 						Ἀχιλῆος</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.1">urn:cts:greekLit:tlg0012.tlg001.msA:1.1</span></span>
+		
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msA.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.3.lemma" data-urnPassage="1.3.lemma" data-urnPassageLeaf="lemma"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.3.lemma">ἄειδε</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.3.lemma">urn:cts:greekLit:tlg5026.msA.hmt:1.3.lemma</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.3.comment" data-urnPassage="1.3.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.3.comment">ὅτι κατὰ τὴν ποιητικὴν ἤτοι άδειαν ἠ συνήθειαν λαμβάνει τὰ προστακτικὰ ἀντι εὐκτικῶν· καὶ γὰρ Ἡσίοδός φησι· δεῦτε δὴ ἐννέπετεopp . 2 , καὶ Πίνδαρος · μαντεύο Μοῦσα fr . 150 sn . , καὶ Ἀντίμαχος ὁ Κολοφώνιος. ἐννέπετε Κρονίανος Διὸς μεγάλοιο θύγατρες fr . 1 w · δευτερον δὲ ὅτι οὐ κατὰ ἀλήθειαν ταῖς Μούσαις ἐπιτάσσουσιν , ἀλλ' ἑαυτοῖς ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.3.comment">urn:cts:greekLit:tlg5026.msA.hmt:1.3.comment</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.2.lemma" data-urnPassage="1.2.lemma" data-urnPassageLeaf="lemma"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.2.lemma">μῆνις</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.2.lemma">urn:cts:greekLit:tlg5026.msA.hmt:1.2.lemma</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.2.comment" data-urnPassage="1.2.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.2.comment">παρὰ τὸ μένω μῆνις ὡς ἐνὸς ἦνις · οἱ δὲ περὶ Γλαύκωνα τὸν Ταρσέα ἠξίουν ὀξύνειν τὸ ὄνομα οὐκ ὀρθῶς .</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.2.comment">urn:cts:greekLit:tlg5026.msA.hmt:1.2.comment</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.4.lemma" data-urnPassage="1.4.lemma" data-urnPassageLeaf="lemma"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.4.lemma">θεά</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.4.lemma">urn:cts:greekLit:tlg5026.msA.hmt:1.4.lemma</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.4.comment" data-urnPassage="1.4.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.4.comment">οὕτως εἴωθε τὴν Μοῦσαν καλεῖν· ἀμέλει καὶ ἐν Ὀδυσσεία · ἄνδρα μοι ἔννεπε Μοῦσαurn:cts:greekLit:tlg0012 . tlg002:1 . 1 ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.4.comment">urn:cts:greekLit:tlg5026.msA.hmt:1.4.comment</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.5.lemma" data-urnPassage="1.5.lemma" data-urnPassageLeaf="lemma"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.5.lemma">Πηληϊάδεω Ἀχιλῆος</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.5.lemma">urn:cts:greekLit:tlg5026.msA.hmt:1.5.lemma</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.5.comment" data-urnPassage="1.5.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.5.comment">οὕτως ἀναγνωστεον δια τοῦ ενὸς λ καὶ διὰ τὸ μέτρον καὶ διὰ τὸ ἄχος ὅ ἐστι λύπην ἐπενεγκεῖν τοῖς Ἰλιεῦσιν , οἱ δὲ παρὰ τὸ μὴ θιγεῖν χείλεσι θηλῆς ὅλως γὰρ οὐ μετέσχε γάλακτος ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.5.comment">urn:cts:greekLit:tlg5026.msA.hmt:1.5.comment</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.1.lemma" data-urnPassage="1.1.lemma" data-urnPassageLeaf="lemma"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.1.lemma">μῆνιν ἄειδε</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.1.lemma">urn:cts:greekLit:tlg5026.msA.hmt:1.1.lemma</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.1.comment" data-urnPassage="1.1.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.1.comment">ζητοῦσι δια τί ἀπὸ τῆς μήνιδος ἤρξατο οὕτως δυσφήμου ὀνόματος· δια δύο ταῦτα· πρῶτον μὲν ἵν' ἐκ τοῦ πάθους ἀπκαταῥρεύσῃ τὸ τοιοῦτο μόριον τῆς ψυχῆς καὶ προσεκτικωτέρους τοὺς ἀκροατὰς ἐπι τοῦ μεγέθους ποιήσῃ καὶ προσεθίζῃ φέρειν γενναίως ἡμᾶς τὰ πάθη . μέλλων πολλέμους ἀπαγγέλλειν· δεύτερον . ἵνα τὰ ἐγκώμια τῶν Ἑλλήνων πιθανώτερα ποιήσῃ· ἐπεὶ δὲ ἔμελλε , νικωντας ἀποφαίνειν τοὺς Ἑλληνας , εἰκότως οὐ κατατρέχει ἀξιοπιστότερον ἐκ τοῦ μὴ παντα χαρίζεσθαι τῷ εκείνων ἐπαίνῳ· ἤρξατο μὲν ἀπὸ μήνιδος ἐπείπερ αὕτη τοῖς πρακτικοῖς ὑπόθεσις γέγονεν· ἄλλῳς τε καὶ τραγῳδίαις τραγικὸν ἐξεῦρε προοίμιον· καὶ γὰρ προσεκτικοὺς ἡμᾶς ἡ τῶν ἀτυχημάτων διήγησις ἐργάζεται· καὶ ὡς ἄριστος ϊατρὸς , πρῶτον ἀναστέλλων τὰ νοσήματα τῆς ψυχῆς ὕστερον τὴν ΐασιν ἐπάγει . Ἑλληνικὸν δὲ τὸ προ τέλει τὰς ηδονὰς ἐπάγειν· ῾ϊστέον δέ , ὥσπερ ἐπι συκῆς πρωτον μέν ἐστιν όλυνθος εἶτα φίλιξ σύκον ϊσχάς . οὕτω πρῶτον· ὀργή · θυμός · χόλος · κότος · μῆνις · ὅμως ὁ ποιητὴς ὡς συνωνύμοις ὀνόμασιν ἐπὶ Ἀχιλλεως χρῆται ἢἐ χόλον παύσειεν , ἐρητύσειε τε θυμόν urn:cts:greekLit:tlg0012 . tlg001:1 . 192 · οὐδ' ὄθομαι κοτέοντος urn:cts:greekLit:tlg0012 . tlg001:1 . 181 , αὐτὰρ ὁ μήνιε νηυσίν urn:cts:greekLit:tlg0012 . tlg001:1 . 488 ·</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.1.comment">urn:cts:greekLit:tlg5026.msA.hmt:1.1.comment</span></span>
+				</div>
+				
+
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msAextra.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msAextra.hmt:1.25.comment" data-urnPassage="1.25.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msAextra.hmt:1.25.comment">διὰ τί εὐθὺς ἀπὸ τῶν τελευταίων τοῦ πολέμου ἤπξατο ; καί φαμεν ὅτι ἅπας μὲν ὁ χρόνος ὁ πρὸ τοῦ δεκάτου ἔτους οὐκ ἔσχεν οὕτω συνεχεῖς τὰς μάχας , διὰ τὸ καὶ τοὺς Τρῶας αὐτοὺς φόβῳ τοῦ Ἀχιλλέως ἐντὸς κατακεκλεῖσθαι τοῦ τείχους· τὸ δε δέκατον πλείονας ἔσχε ηναι πράξεις καὶ τοὺς πολέμους ἰσσπάλου τοῦ Ἀχιλλέυ ὀργιζομένου· ὁ δὲ ποιητὴς οικονομικῶς κἀν τούτῳ ἤρξατο μὲν ἀπὸ τῶν τελευταίων· δια δε τῶν σποράδην αὐτῷ λεχθεντων περιέλαβε καὶ τὰ προ τούτου πραχθέντα ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msAextra.hmt:1.25.comment">urn:cts:greekLit:tlg5026.msAextra.hmt:1.25.comment</span></span>
+				</div>
+				
+
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msAim.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msAim.hmt:1.17.comment" data-urnPassage="1.17.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msAim.hmt:1.17.comment">ὁ Κοτιαευς Ἀχιλῆος · δια το μέτρον ἓν γράφει καὶ γὰρ τὸ Κάμανδρος ἀντὶ Σκαμανδρος γράφεσθαι ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msAim.hmt:1.17.comment">urn:cts:greekLit:tlg5026.msAim.hmt:1.17.comment</span></span>
+				</div>
+				
+		</div>
+		
+
+		<div class="ohco2_commentedPassage">
+		<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.2" data-urnPassage="1.2" data-urnPassageLeaf="2"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.2">οὐλομένην· ἡ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκεν·</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.2">urn:cts:greekLit:tlg0012.tlg001.msA:1.2</span></span>
+		
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msA.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.6.lemma" data-urnPassage="1.6.lemma" data-urnPassageLeaf="lemma"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.6.lemma">μυρία</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.6.lemma">urn:cts:greekLit:tlg5026.msA.hmt:1.6.lemma</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.6.comment" data-urnPassage="1.6.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.6.comment">τινὲς θρηνητικά· παρὰ τὸ μύρεσθαι καὶ ἐπίθετον αὐτὸ τῶν ἀλγέων ήκουσαν , ἐφ οἷς μύριᾶσθαι καὶ τὸ κλαῦσαι , οὐδὲν δὲ ἄτοπον εἰ παρὰ Μουσῶν ταῦτα ἐρωτᾷ φρόνησις μὲν γάρ ἐστιν ἡ πάντ εἴδησις· προαίρεσις δὲ ἀκριβῆς ἡ τῶν ἀμεινόνων πραξεων αἵρεσις ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.6.comment">urn:cts:greekLit:tlg5026.msA.hmt:1.6.comment</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.7.lemma" data-urnPassage="1.7.lemma" data-urnPassageLeaf="lemma"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.7.lemma">Ἀχαιοῖς</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.7.lemma">urn:cts:greekLit:tlg5026.msA.hmt:1.7.lemma</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.7.comment" data-urnPassage="1.7.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.7.comment">Ξοῦθος ὁ Αἰόλου παῖς , ἀγόμενος Κρέουσαν τὴν Ἐρεχθεως θυγατέρα ἔσχεν εξ αυτῆς δύο παῖδας , ΄Ϊονα καὶ Ἀχαιόν · ὧν ὁ μὲν ΄Ϊων ᾤκησεν Ἀθήνας , ὁ δὲ Ἀχαιὸς φονον ἐμφύλιον δράσας , παρεγένετο εἰς Θεσσαλιαν καὶ κυριεύσας τῆς χώρας τοὺς ὑποτεταγμένους , ἀφ εαυτοῦ προσηγόρευσεν Ἀχαιούς , Ἕλληνες δὲ κοινῶς πάντες οἱ τῆς Ἑλλάδος ἐκλήθησαν ἀπο Ελληνος τοῦ Διός · πρῶτοι οῦν οὗτως ἐλέγοντο οἱ ἐν Θεσσαλία ἄνοι  καὶ οὖτοι οὐ πάντες , ἀλλα μόνοι οἱ ἐν Ἑλλάδι τῇ πο  ἔτειτα μεγάλα δυναστευθέντος τοῦ Ἕλληνος , καὶ τῶν τούτου παίδων ἀπ αυτοῦ πάντες ἐκλήθησαν Ἕλληνες ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.7.comment">urn:cts:greekLit:tlg5026.msA.hmt:1.7.comment</span></span>
+				</div>
+				
+		</div>
+		
+
+		<div class="ohco2_commentedPassage">
+		<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.3" data-urnPassage="1.3" data-urnPassageLeaf="3"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.3">πολλὰς δ' ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.3">urn:cts:greekLit:tlg0012.tlg001.msA:1.3</span></span>
+		
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msAim.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msAim.hmt:1.18.comment" data-urnPassage="1.18.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msAim.hmt:1.18.comment">οτι κακῶς τινὲς μεταγράφουσι πολλὰς δ' ἰφθίμους κεφαλὰς ἵνα περιφραστικῶς τοὺς ἀνδρείους καὶ αγαθοὺς λέγῃ κεφαλάς ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msAim.hmt:1.18.comment">urn:cts:greekLit:tlg5026.msAim.hmt:1.18.comment</span></span>
+				</div>
+				
+
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msAil.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.322.comment" data-urnPassage="1.322.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.322.comment">ὀ σι ν</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.322.comment">urn:cts:greekLit:tlg5026.msAil.hmt:1.322.comment</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.323.comment" data-urnPassage="1.323.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.323.comment">ρονον</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.323.comment">urn:cts:greekLit:tlg5026.msAil.hmt:1.323.comment</span></span>
+				</div>
+				
+		</div>
+		
+
+		<div class="ohco2_commentedPassage">
+		<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.4" data-urnPassage="1.4" data-urnPassageLeaf="4"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.4">ἡρώων· αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.4">urn:cts:greekLit:tlg0012.tlg001.msA:1.4</span></span>
+		
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msAil.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.324.comment" data-urnPassage="1.324.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.324.comment">Ἀιολεων</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.324.comment">urn:cts:greekLit:tlg5026.msAil.hmt:1.324.comment</span></span>
+				</div>
+				
+
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msA.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.8.lemma" data-urnPassage="1.8.lemma" data-urnPassageLeaf="lemma"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.8.lemma">ἡρώων αὐτοὺς δὲ</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.8.lemma">urn:cts:greekLit:tlg5026.msA.hmt:1.8.lemma</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.8.comment" data-urnPassage="1.8.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.8.comment">ὅτι Ζηνόδοτος τοὺς δύο ἀθετεῖ· γίνεται δὲ τὸ προοίμιον κόλον καὶ πρὸς τὰς ψυχὰς ἀντιδιέσταλκεν τὸ αὐτοὺς δὲ ἐπί τινῶν σωμάτων· ἥρωας δὲ φασὶ κλνθῆναι . ἀπο τῆς ἀρετῆς , ἢ ἀπο τοῦ ἀέρος . ὡς φησιν Ἱσίοδος urn:cts:greekLit:tlg0012 . tlg001:15 . 124 ἠέρα ἐσσαμενοι , ἢ ἀπο τῆς ἐράσεως τοῦτέστι τῆς μίξεως τῶν θεῶν· οἱ γὰρ θεοὶ θνηταῖς γυναιξὶ συνερχόμενοι . ἐποίουν γένος τὸ τῶν ἡρώων . ἠ ἀπο τῆς ερας , έρα δὲ ἡ γῆ κατὰ διάλεκτον· ἐκ δὲ τῆς γῆς ἐπλάσθη τὸ γενος τῶν ἀνων  ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.8.comment">urn:cts:greekLit:tlg5026.msA.hmt:1.8.comment</span></span>
+				</div>
+				
+		</div>
+		
+
+		<div class="ohco2_commentedPassage">
+		<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.5" data-urnPassage="1.5" data-urnPassageLeaf="5"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.5">οἰωνοῖσί τε πᾶσι· Διὸς δ' 					ἐτελείετο βουλή·</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.5">urn:cts:greekLit:tlg0012.tlg001.msA:1.5</span></span>
+		
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msA.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.9.lemma" data-urnPassage="1.9.lemma" data-urnPassageLeaf="lemma"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.9.lemma">Διὸς δ' ἐτελείετο βουλή</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.9.lemma">urn:cts:greekLit:tlg5026.msA.hmt:1.9.lemma</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.9.comment" data-urnPassage="1.9.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.9.comment">τινὲς σὺν τῷ ϊ κατὰ δοτικὴν οἷον τῆ βουλῇ τοῦ Διὸς ἐτελειοῦτο ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.9.comment">urn:cts:greekLit:tlg5026.msA.hmt:1.9.comment</span></span>
+				</div>
+				
+
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msAil.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.325.comment" data-urnPassage="1.325.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.325.comment">γν ψὶ καὶ κ όραξι</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.325.comment">urn:cts:greekLit:tlg5026.msAil.hmt:1.325.comment</span></span>
+				</div>
+				
+		</div>
+		
+
+		<div class="ohco2_commentedPassage">
+		<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.6" data-urnPassage="1.6" data-urnPassageLeaf="6"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.6">ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.6">urn:cts:greekLit:tlg0012.tlg001.msA:1.6</span></span>
+		
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msAil.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.326.comment" data-urnPassage="1.326.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.326.comment">εφ'ου ν ου</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.326.comment">urn:cts:greekLit:tlg5026.msAil.hmt:1.326.comment</span></span>
+				</div>
+				
+		</div>
+		
+
+		<div class="ohco2_commentedPassage">
+		<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.7" data-urnPassage="1.7" data-urnPassageLeaf="7"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.7">Ἀτρείδης τε ἄναξ ἀνδρῶν 					καὶ δῖος Ἀχιλλεύς ·</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.7">urn:cts:greekLit:tlg0012.tlg001.msA:1.7</span></span>
+		
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msA.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.12.lemma" data-urnPassage="1.12.lemma" data-urnPassageLeaf="lemma"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.12.lemma">Ἀτρείδης τε ἄναξ</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.12.lemma">urn:cts:greekLit:tlg5026.msA.hmt:1.12.lemma</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.12.comment" data-urnPassage="1.12.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.12.comment">Ἀγαμεμνων κατὰ μὲν Ὅμηρον Ἀτρέως τοῦ Πέλοπος · μητρὸς δὲ Αεροπ  , κατὰ δὲ Ησίοδ  Πλεισθένους , τὸ γενος Μυκηναιος , ὃς ήγαγε ναῦς εἰς ῎Ϊλιον · ἐκ πορθήσας δὲ τὴν Ἴλιον , καὶ ὑποστρέψας οἴκαδὲ ἀναιρειτ  ὑπο Αἰγίσθου τοῦ Θυέστου δόλῳ ἐπι ευωχιας οὗτος γὰρ παρὰ τὸν καιρὸν τῆς ἀποδημιας εμοιχευσε τὴν Ἀγαμέμνονος γυναῖκα Κλυταιμνηστραν κατὰ δὲ τοὺς τραγικοὺς αὐτὴν τὴν Κλυταιμνήστραν ἀνελεῖν αὐτὸν χϊτῶνα μη έχοντα δίεκδυσιν τραχήλου· ἔσχεν δὲ εξ αυτῆς υν  μὲν Ὀρεστην καὶ θυγατέρας τέσσαρας· Λοδί  Χρυσοθ  Ἰφιγένειαν καὶ Ἠλέκτραν ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.12.comment">urn:cts:greekLit:tlg5026.msA.hmt:1.12.comment</span></span>
+				</div>
+				
+		</div>
+		
+
+		<div class="ohco2_commentedPassage">
+		<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.8" data-urnPassage="1.8" data-urnPassageLeaf="8"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.8">τίς τάρ σφωε θεῶν ἔριδι ξυνἕηκε μάχεσθαι·</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.8">urn:cts:greekLit:tlg0012.tlg001.msA:1.8</span></span>
+		
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msAim.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msAim.hmt:1.19.comment" data-urnPassage="1.19.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msAim.hmt:1.19.comment">ὅτι Ζηνόδοτος σφῶϊν ἔγραφεν ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msAim.hmt:1.19.comment">urn:cts:greekLit:tlg5026.msAim.hmt:1.19.comment</span></span>
+				</div>
+				
+
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msAint.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msAint.hmt:1.27.comment" data-urnPassage="1.27.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msAint.hmt:1.27.comment">δασύνεται τὸ ξυνἕηκε ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msAint.hmt:1.27.comment">urn:cts:greekLit:tlg5026.msAint.hmt:1.27.comment</span></span>
+				</div>
+				
+		</div>
+		
+
+		<div class="ohco2_commentedPassage">
+		<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.9" data-urnPassage="1.9" data-urnPassageLeaf="9"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.9">Λητοῦς καὶ Διὸς υἱός· ὁ γὰρ βασιλῆϊ χολωθεὶς</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.9">urn:cts:greekLit:tlg0012.tlg001.msA:1.9</span></span>
+		
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msA.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.13.lemma" data-urnPassage="1.13.lemma" data-urnPassageLeaf="lemma"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.13.lemma">Λητοῦς καὶ Διὸς ὑιός</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.13.lemma">urn:cts:greekLit:tlg5026.msA.hmt:1.13.lemma</span></span>
+<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.13.comment" data-urnPassage="1.13.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.13.comment">Ζεὺς ερασθεὶς Λητοῦς τῆς Κόιου θυγατρὸς ἑνὸς τῶν Τιτάνων καὶ Φοίβης ἔγκυον αὐτὴν ἐποίησεν· ἥτις δὲ καμηνιαίον χρόνου διαγενομένου παρεγένετο δια θαλάσσης εἰς Ἀστερίον τὴν νῆσον μίαν ουσαν τῶν Κυκλάδων εκεῖσε τὲ ἐλθουσαν καὶ ἀψαμενην δύο φυτῶν ελαιας καὶ φοίνικος διδύμους ἀποκυῆσαι· παίδας Ἄρτεμιν καὶ Ἀπόλλωνα καὶ τὴν νῆσον ἐκάλεσε Δῆλον ὅτι ἐξ αδήλου βάσεως ἐρριζώθη ⁑</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msA.hmt:1.13.comment">urn:cts:greekLit:tlg5026.msA.hmt:1.13.comment</span></span>
+				</div>
+				
+		</div>
+		
+
+		<div class="ohco2_commentedPassage">
+		<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.10" data-urnPassage="1.10" data-urnPassageLeaf="10"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.10">νοῦσον ἀνὰ στρατὸν ὦρσε κακήν· ὀλέκοντο δὲ λαοὶ .</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg0012.tlg001.msA:1.10">urn:cts:greekLit:tlg0012.tlg001.msA:1.10</span></span>
+		
+				<div class="ohco2_commentBlock" data-commentBlockLabel="urn:cts:greekLit:tlg5026.msAil.hmt:">
+				<span class="ohco2_citableNodeContainer" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.327.comment" data-urnPassage="1.327.comment" data-urnPassageLeaf="comment"><span class="ohco2_citableNodeText" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.327.comment">ψιλοῦται</span><span class="cite_urn ctsUrn" data-ctsurn="urn:cts:greekLit:tlg5026.msAil.hmt:1.327.comment">urn:cts:greekLit:tlg5026.msAil.hmt:1.327.comment</span></span>
+				</div>
+				
+		</div>
+		
