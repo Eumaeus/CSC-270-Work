@@ -30,6 +30,10 @@ span.cts_tocHyphen {
 	margin: 0 0.5em 0 0.5em;
 }
 
+.cts_tocHyphen:after {
+	content: "-";
+}
+
 /* :hover	 is what it will look like when you hover the mouse over an element */
 a:hover {
 	background-color: rgba(255,255,125,0.5);

@@ -28,8 +28,12 @@ This repository is an SBT project for running Scala code. Everything should be r
 - Clone this repository.
 - Navigate to this repository's root level.
 - `$ sbt console`
-- `scala> :load scripts/corpus-char-validation.sc`
+- `scala> :load scripts/character-validation.sc`
 - etc.
+
+## Code Contents
+
+
 
 ## Character Validation
 
