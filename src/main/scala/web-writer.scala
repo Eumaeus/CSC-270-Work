@@ -194,8 +194,8 @@ object webWriter {
 
 			<meta charset="utf-8"/>
 		  <!-- a comment -->	
-			<title>${fileName}</title>
-			<link rel="stylesheet" href="../style.css">
+            <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+            <meta content="utf-8" http-equiv="encoding">
 			<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i&amp;subset=cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
 			</head>
 			<body>
@@ -285,7 +285,8 @@ object webWriter {
 			<!doctype html>
 			<html>
 			<head>
-			<meta charset="utf-8"/>
+            <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+            <meta content="utf-8" http-equiv="encoding">
 			<title>${titleString}</title>
 			<link rel="stylesheet" href="../style.css">
 			<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i&amp;subset=cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
