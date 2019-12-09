@@ -196,10 +196,10 @@ object webWriter {
 		  <!-- a comment -->	
             <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
             <meta content="utf-8" http-equiv="encoding">
+            <link href="../style.css" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i&amp;subset=cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
 			</head>
 			<body>
-			<header>Your header</header>
 			<article>
 			${sequenceString}
 			${catString}
@@ -209,7 +209,25 @@ object webWriter {
 			${corpString}
 			${navString}
 			</article>
-			<footer>Your footer</footer>
+			<footer>
+<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+     href="https://github.com/Eumaeus/CSC-270-Work">
+    <span property="dct:title">Christopher W. Blackwell</span></a>
+  has waived all copyright and related or neighboring rights to
+  <span property="dct:title">Arstotle, Treatise on Government</span>.
+This work is published from:
+<span property="vcard:Country" datatype="dct:ISO3166"
+      content="US" about="https://github.com/Eumaeus/CSC-270-Work">
+  United States</span>.
+</p>
+			</footer>
 			</body>
 			</html>
 			"""
@@ -292,14 +310,30 @@ object webWriter {
 			<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i&amp;subset=cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
 			</head>
 			<body>
-			<header>Your header</header>
 			<article>
 			${catString}
 			${infoString}
 			${tocHeader}
 			${toc}	
 			</article>
-			<footer>Your footer</footer>
+			<footer>
+			<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+     href="https://github.com/Eumaeus/CSC-270-Work">
+    <span property="dct:title">Christopher W. Blackwell</span></a>
+  has waived all copyright and related or neighboring rights to
+  <span property="dct:title">Arstotle, Treatise on Government</span>.
+This work is published from:
+<span property="vcard:Country" datatype="dct:ISO3166"
+      content="US" about="https://github.com/Eumaeus/CSC-270-Work">
+  United States</span>.
+</p></footer>
 			</body>
 			</html>
 		"""

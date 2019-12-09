@@ -18,7 +18,9 @@ Basic bibliography:
 
 - E. Clayton, “Aristotle, *Politics*” (The Internet Encyclopedia of Philosophy) <https://www.iep.utm.edu/aris-pol/>.
 
-A plain-text, citable edition following the protocols of the [CITE Architecture](http://cite-architecture.org). Included Scala scripts take advantage of the code libraries in the [CITE Architecture](http://cite-architecture.org).
+A plain-text, citable edition following the protocols of the [CITE Architecture](http://cite-architecture.org). 
+
+Included Scala scripts take advantage of the code libraries in the [CITE Architecture](http://cite-architecture.org).
 
 Edited, 12/9/2019
 

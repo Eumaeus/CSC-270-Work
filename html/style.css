@@ -45,7 +45,7 @@ header, footer {
 	color: #666;
 }
 
-article {
+article, footer {
 	border: 1px solid silver;
 	padding: 2em;
 	max-width: 45em;
