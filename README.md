@@ -10,9 +10,9 @@ Text: `urn:cts:greekLit:tlg0086.tlg035.ellis:`
 
 *A Treatise on Government*, By Aristotle. Translated From The Greek Of Aristotle By William Ellis, A.M. London & Toronto Published By J M Dent & Sons Ltd. & In New York By E. P. Dutton &. Co. First Issue Of This Edition 1912 Reprinted 1919, 1923, 1928
 
-Plain-text, citable edition following the protocols of the [CITE Architecture](http://cite-architecture.org).
+Plain-text, citable edition following the protocols of the [CITE Architecture](http://cite-architecture.org). Included Scala scripts take advantage of the code libraries in the [CITE Architecture](http://cite-architecture.org).
 
-Edited, 10/21/2019
+Edited, 12/9/2019
 
 ## Running Scripts for Validation, Publication, and Analysis
 
