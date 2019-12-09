@@ -10,7 +10,15 @@ Text: `urn:cts:greekLit:tlg0086.tlg035.ellis:`
 
 *A Treatise on Government*, By Aristotle. Translated From The Greek Of Aristotle By William Ellis, A.M. London & Toronto Published By J M Dent & Sons Ltd. & In New York By E. P. Dutton &. Co. First Issue Of This Edition 1912 Reprinted 1919, 1923, 1928
 
-Plain-text, citable edition following the protocols of the [CITE Architecture](http://cite-architecture.org). Included Scala scripts take advantage of the code libraries in the [CITE Architecture](http://cite-architecture.org).
+Aristotle was a Greek philosopher from the 4th Century BCE. In his time and place, “philosophy” had a broad meaning, including things like ethics and metaphysics (still included in the discipline of Philosophy), but also things that we would now consider sociology, political science, psychology, and the natural sciences.
+
+The *Politics* (called in this 1912 English translation *A Treatise on Government*) is Aristotle’s longest—6 volumes—discussion of human beings and their societies in general.
+
+Basic bibliography:
+
+- E. Clayton, “Aristotle, *Politics*” (The Internet Encyclopedia of Philosophy) <https://www.iep.utm.edu/aris-pol/>.
+
+A plain-text, citable edition following the protocols of the [CITE Architecture](http://cite-architecture.org). Included Scala scripts take advantage of the code libraries in the [CITE Architecture](http://cite-architecture.org).
 
 Edited, 12/9/2019
 
