@@ -24,7 +24,9 @@ There is a human-readable HTML site, derived from the `.cex` file, in `html/`. T
 
 Included Scala scripts take advantage of the code libraries in the [CITE Architecture](http://cite-architecture.org).
 
-This version of this text is [in the Public Domain](http://creativecommons.org/publicdomain/zero/1.0/): ![license](http://i.creativecommons.org/p/zero/1.0/88x31.png)
+This version of this text is [in the Public Domain](http://creativecommons.org/publicdomain/zero/1.0/): 
+
+![license](http://i.creativecommons.org/p/zero/1.0/88x31.png)
 
 Edited, 12/9/2019
 
