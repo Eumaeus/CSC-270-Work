@@ -57,9 +57,65 @@ The text has been machine validated as to character-set using [a Scala script](h
 | `u` (75) | `v` (76) | `w` (77) | `x` (78) | `y` (79) |
 | `z` (7a) | `…` (2026) |
 
+Confirm character-validation with:
+
+~~~
+$ sbt console
+scala> :load scripts/character-validation.sc
+~~~
+
+This will generate a file `validation-data/charTable.md` containing each distinct character present in the text, with its Unicode value.
+
 ## Spelling Validation
 
 This English translation of Aristotle's *Politics* has been spell-checked against two files. One is [a standard English word-list](https://github.com/Eumaeus/CSC-270-Work/tree/master/validation-data/SCOWL-wl) generated from the [SCOWL](http://wordlist.aspell.net) online tool. The second is [a user-dictionary](https://github.com/Eumaeus/CSC-270-Work/blob/master/validation-data/userDictionary.txt). 
 
 The spell-check script at [/scripts/character-validation.sc](https://github.com/Eumaeus/CSC-270-Work/blob/master/scripts/character-validation.sc).
+
+Confirm spelling validation with:
+
+~~~
+$ sbt console
+scala> :load scripts/corpus-spelling.sc
+~~~
+
+## Ngram Analysis
+
+An NGram is a recurring pattern of N-number of words. This repository includes a basic Scala script showing how NGram analysis can work with, and be enhanced by, the [CITE Architecture](http://cite-architecture.org).
+
+Running: 
+
+~~~
+$ sbt console
+scala> :load scripts/ngrams.sc
+~~~
+
+This script analyzes the text for 3-grams. 
+
+1. It generates a *citable tokenized exemplar* of the text, divided into word-tokens, with punctuation removed, and all words lower-cased: `noPuncCorpus`.
+1. It creates a Vector of all possible patterns of 3 words, as a `Vector[ (CtsUrn, String) ]`, with citations keyed to `noPuncCorpus`: `ngt`.
+1. It creates a Histogram of those 3-Grams, consisting of a `Vector[ (String, Int) ]`, sorted by frequency (most common NGrams at the bottom): `ngh`.
+
+See the histogram with: `scala> showMe(ngh)`
+
+Find all citations to occurances of one Ngram with, e.g.:
+
+~~~scala
+scala> val oneNG: Set[CtsUrn] = urnsForNGram( "the administration of", ngt)
+scala> showMe(oneNG)
+~~~
+
+If we ask for NGrams where `n=1`, we simply get a list of the vocabulary for this text, sorted by frequency: 
+
+~~~scala
+scala> val vocab = makeNGramTuples(1, noPuncCorpus)
+scala> val vocabHisto = makeNGramHisto(vocab)
+~~~
+
+The script includes a function `takePercent( histo: Vector[(String, Int)], targetPercent: Int)`. This is a tail-recurive method that will take, starting with the most frequent, items from a histogram that add up to a desired percentage of all occurrances. In other words, "What English words do I need to know to recognize 50% of the words in this text?":
+
+~~~scala
+scala> val halfOfAllWords = takePercent(vocabHisto, 50)
+scala> showMe(halfOfAllWords)
+~~~
 
