@@ -18,9 +18,13 @@ Basic bibliography:
 
 - E. Clayton, “Aristotle, *Politics*” (The Internet Encyclopedia of Philosophy) <https://www.iep.utm.edu/aris-pol/>.
 
-A plain-text, citable edition following the protocols of the [CITE Architecture](http://cite-architecture.org). 
+A plain-text, citable edition following the protocols of the [CITE Architecture](http://cite-architecture.org). The file in `text/arist_politics.cex` is intended for machine-processing and has been validated as to character-set and spelling.
+
+There is a human-readable HTML site, derived from the `.cex` file, in `html/`. The scripts that generated that site are in `/src/main/scala/`.
 
 Included Scala scripts take advantage of the code libraries in the [CITE Architecture](http://cite-architecture.org).
+
+This version of this text is [in the Public Domain](http://creativecommons.org/publicdomain/zero/1.0/): ![license](http://i.creativecommons.org/p/zero/1.0/88x31.png)
 
 Edited, 12/9/2019
 
