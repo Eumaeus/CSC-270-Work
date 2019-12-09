@@ -223,11 +223,6 @@ Cuma
 Cume
 Cyposelidse
 Cypselidse
-Cypselus
-Daphnseus
-Darda
-Decamnichus
-Delphos
 Diagoras
 Diocles
 Doxander
@@ -431,6 +426,11 @@ philarchi
 plac'd
 polemarch
 potagogides
+Cypselus
+Decamnichus
+Darda
+Delphos
+Daphnseus
 pre
 preadvisers
 prytanes
@@ -455,3 +455,8 @@ men-at-arms
 commander-in-chief
 husband-
 one-and-twenty
+Cypselus
+Daphnseus
+Darda
+Decamnichus
+Delphos
