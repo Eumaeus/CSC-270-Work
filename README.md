@@ -54,6 +54,8 @@ This repository is an SBT project for running Scala code. Everything should be r
 
 The text has been machine validated as to character-set using [a Scala script](https://github.com/Eumaeus/CSC-270-Work/blob/master/scripts/corpus-char-validate.sc). The following is a complete inventory of the characters present in this text:
 
+<div style="font-size: 75%">
+
 | Character | Character | Character | Character | Character |
 |-----------|-----------|-----------|-----------|-----------|
 | `space` (20) | `!` (21) | `"` (22) | `'` (27) | `(` (28) |
@@ -72,6 +74,8 @@ The text has been machine validated as to character-set using [a Scala script](h
 | `p` (70) | `q` (71) | `r` (72) | `s` (73) | `t` (74) |
 | `u` (75) | `v` (76) | `w` (77) | `x` (78) | `y` (79) |
 | `z` (7a) | `…` (2026) |
+
+</div>
 
 Confirm character-validation with:
 
